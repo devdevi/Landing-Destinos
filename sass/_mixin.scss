@@ -1,0 +1,19 @@
+@mixin shortLine(){
+  height: 4px;
+  width: 3em;
+  background-color: $title_color;
+}
+
+@mixin cuadros(){
+  height: cuadros_tamano;
+  width: 4em;
+  border: 1px solid #979BB1;
+  display: inline-block;
+  margin: 1em;
+}
+
+@mixin cambioPop(){
+  background-color: #000000!important;
+  color: #FFFF!important;
+  width: 50vh;
+}
